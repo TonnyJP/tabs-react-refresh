@@ -157,6 +157,7 @@ Jobs
 */
 
 .jobs-center {
+  display: flex;
   width: 80vw;
   margin: 0 auto;
   max-width: var(--max-width);
@@ -188,6 +189,7 @@ Jobs
 .active-btn {
   color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
+  background: var(--clr-grey-9);
 }
 
 .job-info h3 {
@@ -264,4 +266,10 @@ Jobs
   background: var(--clr-primary-8);
 }
 .center-btn {
+}
+
+.section div{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
 }
